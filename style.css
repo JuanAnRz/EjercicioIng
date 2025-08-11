@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width: 100svw;
+    height:100svh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width:300px;
+    height:auto;
+    padding:10px;
+    background-color: rgb(79, 79, 206);
+    border-radius: 10px;
+}
+
+input{
+    height:40px;
+    width: 100%;
+}
+
+button{
+    background-color: white;
+    color:black;
+    height: 40px;
+    width:100%
+}
