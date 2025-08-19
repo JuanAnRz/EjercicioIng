@@ -1,0 +1,17 @@
+
+-- Your code here!
+
+create database listur 
+
+use listur
+
+create table libro(
+    id int(5) primary key,
+    Nombre varChar(100) not null,
+    Autor varChar(100)
+)
+
+create table cliente(
+    ci int(8) primary key,
+    nombre varChar(10)
+)
